@@ -1,0 +1,41 @@
+.songrow{
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* z-index: -100; */
+}
+
+/* .songrow > img{
+    width: 40px;
+    height: 40px;
+
+} */
+
+.songrow:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+.songrow__info{
+    margin-left: 20px;
+}
+.songrow__info > h1{
+    font-size: 16px;
+}
+.songrow__info > p{
+    font-size: 14px;
+    margin-top: 3px;
+    color: grey;
+}
+.songrow__album1{
+    height: 40px;
+    width: 40px;
+}
+.songrow__info >h1 :hover{
+    color: white;
+    font-weight: bold;
+}
+
+
